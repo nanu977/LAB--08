@@ -1,0 +1,102 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #4CAF50; /* Green color for heading */
+  margin: 20px 0;
+}
+
+/* Input and Button Styles */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #333; /* Dark background for input */
+  color: #fff; /* White text in input */
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff; /* White text for buttons */
+  background-color: #4CAF50; /* Green background for buttons */
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  gap: 5px;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Individual List Item */
+li {
+  padding: 15px;
+  border-bottom: 1px solid #444; /* Dark grey border */
+  display: flex;
+  align-items: center;
+  background-color: #222; /* Darker background for list items */
+  border-radius: 5px;
+  margin-bottom: 15px; /* Space between tasks */
+  color: #fff;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Completed Task Style */
+li.done {
+  text-decoration: line-through; /* Line-through for completed tasks */
+  background-color: #333; /* Slightly lighter background for completed tasks */
+}
+
+/* Edit, Done, and Delete Buttons */
+.edit {
+  background-color: #FFC107; /* Amber for edit */
+}
+
+.edit:hover {
+  background-color: #ffb300; /* Slightly darker amber on hover */
+}
+
+.done {
+  background-color: #2196F3; /* Blue for done */
+}
+
+.done:hover {
+  background-color: #1976D2; /* Slightly darker blue on hover */
+}
+
+.delete {
+  background-color: #F44336; /* Red for delete */
+}
+
+.delete:hover {
+  background-color: #d32f2f; /* Slightly darker red on hover */
+}
+
